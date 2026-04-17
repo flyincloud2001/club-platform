@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes)",
+      "Bash(git *)",
+      "Bash(npm install *)",
+      "Bash(npx prisma *)",
+      "Bash(mkdir -p src/app/\\\\\\(public\\\\\\) src/app/\\\\\\(member\\\\\\) src/app/\\\\\\(admin\\\\\\) src/app/api src/components/ui src/components/layout src/components/modules src/types)",
+      "Bash(touch src/app/\\\\\\(public\\\\\\)/.gitkeep src/app/\\\\\\(member\\\\\\)/.gitkeep src/app/\\\\\\(admin\\\\\\)/.gitkeep src/app/api/.gitkeep src/components/ui/.gitkeep src/components/layout/.gitkeep src/components/modules/.gitkeep src/types/.gitkeep)",
+      "Bash(DATABASE_URL=\"postgresql://postgres:xnbJ%26_%40b77Ui9xG@db.rbwchvwiuazfrsoabwni.supabase.co:5432/postgres\" npx prisma migrate dev --name init)",
+      "Bash(powershell *)",
+      "Bash(npm run *)",
+      "Bash(xargs grep *)",
+      "Bash(echo \"PID: $!\")",
+      "Read(//tmp/**)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(taskkill /PID 10860 /F)",
+      "Bash(taskkill /PID 2392 /F)",
+      "Bash(cmd //c \"taskkill /PID 10860 /F\")",
+      "Bash(cmd //c \"taskkill /PID 2392 /F\")",
+      "Bash(cmd //c \"taskkill /F /IM node.exe\")",
+      "Bash(echo \"BUILD_EXIT:$?\")",
+      "Bash(netstat -ano)",
+      "Bash(taskkill *)",
+      "Bash(cmd *)",
+      "Bash(echo \"exit:$?\")",
+      "Skill(update-config)",
+      "Bash(mempalace mine *)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(PYTHONUTF8=1 mempalace mine \"C:\\\\Users\\\\flyin\\\\.claude\\\\projects\" --mode convos)",
+      "Bash(wait)",
+      "Bash(python *)",
+      "Bash(npx tsc *)"
+    ]
+  }
+}

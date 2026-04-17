@@ -4,8 +4,6 @@ import { db } from "@/lib/db";
 import { ROLE_LEVEL } from "@/lib/rbac";
 import type { Role } from "@/generated/prisma/client";
 
-const VALID_TIERS = ["platinum", "gold", "silver", "bronze"] as const;
-
 /** GET /api/sponsors — 列出所有贊助商，可用 ?year=2024 篩選有該年度記錄的 sponsor */
 export async function GET(request: NextRequest) {
   try {

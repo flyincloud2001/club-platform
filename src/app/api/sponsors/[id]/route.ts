@@ -56,7 +56,10 @@ export async function PATCH(request: NextRequest, { params }: Params) {
     });
 
     return NextResponse.json(sponsor);
-  } catch {
+  } catch (err) {
+    if ((err as { code?: string }).code === "P2025") {
+      return NextResponse.json({ error: "Sponsor not found" }, { status: 404 });
+    }
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }
@@ -74,7 +77,10 @@ export async function DELETE(_req: NextRequest, { params }: Params) {
     await db.sponsor.delete({ where: { id } });
 
     return NextResponse.json({ success: true });
-  } catch {
+  } catch (err) {
+    if ((err as { code?: string }).code === "P2025") {
+      return NextResponse.json({ error: "Sponsor not found" }, { status: 404 });
+    }
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

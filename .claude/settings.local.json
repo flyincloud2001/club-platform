@@ -31,7 +31,15 @@
       "Bash(PYTHONUTF8=1 mempalace mine \"C:\\\\Users\\\\flyin\\\\.claude\\\\projects\" --mode convos)",
       "Bash(wait)",
       "Bash(python *)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(npx vercel *)",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); [print\\(e.get\\('type',''\\), e.get\\('payload',{}\\).get\\('text',''\\)\\) for e in data.get\\('events',data if isinstance\\(data,list\\) else []\\)]\")",
+      "Read(//c/Users/flyin/AppData/Roaming/com.vercel.cli/**)",
+      "Read(//c/Users/flyin/.config/**)",
+      "Bash(python3 *)",
+      "Bash(curl -s 'https://api.vercel.com/v2/deployments/dpl_CsiYYgdPXVpoEh3TawY6JfVG7V5f/events?limit=200&types=stdout,stderr,error' -H 'Authorization: Bearer vca_4IyY32Zptdkxcg2X5kWW7aV8qB7VANhfFGcDsRm8qbRvtwEIZl2gtW94')",
+      "Bash(node -e ' *)",
+      "Bash(curl -s 'https://api.vercel.com/v2/deployments/rocsaut-club-platform-ocvjcmq6o-flyincloud2001s-projects.vercel.app/events?limit=200' -H 'Authorization: Bearer vca_4IyY32Zptdkxcg2X5kWW7aV8qB7VANhfFGcDsRm8qbRvtwEIZl2gtW94')"
     ]
   }
 }

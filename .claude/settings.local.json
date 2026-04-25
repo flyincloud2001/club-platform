@@ -82,7 +82,11 @@
       "Bash(node *)",
       "Bash(gh api *)",
       "Bash(sed -n '120,130p' config.yaml)",
-      "Bash(sed -n '170,185p' src/lib/config.ts)"
+      "Bash(sed -n '170,185p' src/lib/config.ts)",
+      "Bash(npx next *)",
+      "Bash(powershell.exe -Command \"Rename-Item 'C:\\\\Users\\\\flyin\\\\OneDrive\\\\桌面\\\\開源代碼\\\\社團平台\\\\public\\\\assets\\\\hero.JPG' 'hero.jpg'\")",
+      "WebFetch(domain:next-intl.dev)",
+      "Bash(find src/app/api/admin/reports src/app/[locale]/\\\\\\(admin\\\\\\)/admin/reports -type f \\\\\\( -name \"*.ts\" -o -name \"*.tsx\" \\\\\\))"
     ]
   }
 }

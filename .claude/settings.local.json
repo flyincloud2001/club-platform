@@ -86,7 +86,9 @@
       "Bash(npx next *)",
       "Bash(powershell.exe -Command \"Rename-Item 'C:\\\\Users\\\\flyin\\\\OneDrive\\\\桌面\\\\開源代碼\\\\社團平台\\\\public\\\\assets\\\\hero.JPG' 'hero.jpg'\")",
       "WebFetch(domain:next-intl.dev)",
-      "Bash(find src/app/api/admin/reports src/app/[locale]/\\\\\\(admin\\\\\\)/admin/reports -type f \\\\\\( -name \"*.ts\" -o -name \"*.tsx\" \\\\\\))"
+      "Bash(find src/app/api/admin/reports src/app/[locale]/\\\\\\(admin\\\\\\)/admin/reports -type f \\\\\\( -name \"*.ts\" -o -name \"*.tsx\" \\\\\\))",
+      "mcp__claude_ai_Supabase__list_projects",
+      "mcp__claude_ai_Supabase__execute_sql"
     ]
   }
 }
